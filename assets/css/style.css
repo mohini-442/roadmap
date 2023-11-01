@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&display=swap');
+
+:root {
+    /* font-size */
+    --fs-xxs: 14px;
+    --fs-xs: 16px;
+    --fs-s: 20px;
+    --fs-sm: 22px;
+    --fs-sm2: 30px;
+    --fs-lg: 40px;
+    --fs-xl: 50px;
+
+    /* color */
+    --color-green: #9ACC44;
+    --color-dark-green: #5BA72B;
+    --color-black: #000;
+    --color-white: #fff;
+}
+
+.ff-balsamiqsans {
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+.ff-CherryBombOne {
+    font-family: 'Cherry Bomb One', sans-serif;
+}
+
+.fs-lg {
+    font-size: 60px;
+}
+
+.fs-xxs {
+    font-size: var(--fs-xxs);
+}
+
+.fs-xs {
+    font-size: var(--fs-xs);
+}
+
+.fs-s {
+    font-size: var(--fs-s);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-sm2 {
+    font-size: var(--fs-sm2);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+
+.bg-darkgreen {
+    background-color: var(--color-dark-green);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+
+.bg-green {
+    background-color: var(--color-green);
+}
+
+.line-height-150 {
+    line-height: 150%;
+}
+
+/* section */
+.my-container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-card {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0.10);
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+.page-card:hover {
+    background-color: var(--color-dark-green);
+}
+
+.page-card:hover .symbol svg path {
+    opacity: 0.9;
+}
+
+.op-7 {
+    opacity: 0.7;
+}
+
+.op-3 {
+    opacity: 0.3;
+}
+
+.max-w-665 {
+    max-width: 665px;
+}
+
+.tree-img {
+    position: absolute;
+    bottom: -2%;
+    left: -8%;
+    z-index: -1;
+}
+
+.cloud-img {
+    position: absolute;
+    top: 2%;
+    right: -6%;
+    z-index: -1;
+}
+
+.cloud-img-2 {
+    position: absolute;
+    top: 8%;
+    left: -5%;
+    z-index: -1;
+}
+
+.pl-5 {
+    padding-left: 5%;
+}
+
+.pr-5 {
+    padding-right: 5%;
+}
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+.cross{
+    position: absolute;
+    top: -4%;
+    right: -2%;
+}
+
+/* section-2  */
+.content-box {
+    width: 100%;
+    padding: 15px;
+    border-radius: 19px;
+    border: 7px solid var(--color-white);
+    background: rgba(255, 255, 255, 0.10);
+    cursor: pointer;
+}
+
+.content-box:hover .symbol svg path {
+    opacity: 1.0;
+}
+
+.content-box:hover {
+    background: var(--color-dark-green);
+}
+
+.tree-img-2 {
+    position: absolute;
+    bottom: -2%;
+    left: -8%;
+    z-index: -1;
+}
+
+.color-white-light {
+    color: rgba(255, 255, 255, 0.80)
+}
+
+.pl-7 {
+    padding-left: 7px;
+}
+
+.pl-content {
+    padding-left: 15px;
+}
+
+
+@media (min-width:992px) {
+    .content-box {
+        padding: 65px 25px 65px 55px !important;
+    }
+
+    .tree-img-2 {
+        position: absolute;
+        bottom: -5%;
+        left: -12%;
+        z-index: -1;
+    }
+}
+
+@media(min-width:576px) {
+    .pl-content {
+        padding-left: 45px;
+    }
+
+    .content-box {
+        padding: 25px;
+    }
+
+    :root {
+        /* font-size */
+        --fs-xxs: 16px;
+        --fs-xs: 18px;
+        --fs-s: 24px;
+        --fs-sm: 28px;
+        --fs-sm2: 50px;
+        --fs-lg: 60px;
+        --fs-xl: 70px;
+    }
+
+    .page-card {
+        background: rgba(255, 255, 255, 0.10);
+        padding: 20px 30px 20px 20px;
+    }
+}
+.closeBtn {
+    top: 2% !important;
+    right: 4% !important;
+    cursor: pointer;
+}
